@@ -1,0 +1,27 @@
+{
+    "name": "busy-noggin/layout-selector",
+    "type": "typo3-cms-extension",
+    "description": "Custom Render for Layout selector",
+    "license": ["GPL-2.0+"],
+    "require": {
+        "typo3/cms-core": "*",
+        "fluidtypo3/flux": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BusyNoggin\\LayoutSelector\\": "Classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Manuel Verges Solanas",
+            "email": "juanmanuel.vergessolanas@busynoggin.com",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "layout_selector"
+        }
+    }
+}
